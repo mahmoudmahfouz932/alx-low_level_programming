@@ -22,7 +22,7 @@ int main(void)
 	else if (n < 0)
 	{
 		ln = n % 1;
-		ln = 0 - ln
+		ln = 0 - ln;
 	}
 	if (ln > 5)
 	{
