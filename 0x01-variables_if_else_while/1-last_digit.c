@@ -19,9 +19,9 @@ int main(void)
 	{
 		ln = n % 10;
 	}
-	else
+	else if (n < 0)
 	{
-		ln = -(n % 10);
+		ln = (n % 10) * -1;
 	}
 	if (ln > 5)
 	{
