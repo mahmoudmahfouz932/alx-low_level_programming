@@ -15,7 +15,7 @@ int main(void)
 			putchar(c);
 			continue;
 		}
-		c = c + ' ';
+		c = c + '0';
 		putchar(c);
 		putchar(',');
 	}
