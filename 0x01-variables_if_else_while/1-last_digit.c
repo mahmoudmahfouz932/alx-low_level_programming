@@ -21,8 +21,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		ln = n % 10;
-		ln = 0 - ln;
+		ln = 0 - (n % 10);
 	}
 	if (ln > 5)
 	{
