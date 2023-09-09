@@ -6,11 +6,11 @@
 */
 int main(void)
 {
-	char c;
+	int c;
 
-	for (c = '0'; c <= '9'; c++)
+	for (c = 0; c <= 9; c++)
 	{
-		if (c == '9')
+		if (c == 9)
 		{
 			putchar(c);
 			continue;
