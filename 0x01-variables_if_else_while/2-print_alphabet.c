@@ -10,6 +10,6 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; ++c)
 	{
-		puts(c);
+		puts("%c",c);
 	}
 }
