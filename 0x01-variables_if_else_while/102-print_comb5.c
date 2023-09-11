@@ -8,19 +8,19 @@ int main(void)
 {
 	int i, x, z, y;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 10; i++)
 	{
 		for (x = 0; x < 10; x++)
 		{
-			for (z = 0; z < 11; z++)
+			for (z = 0; z < 10; z++)
 			{
-				for (y = z + 1; y < 11; y++)
+				for (y = z + 1; y < 10; y++)
 				{
-					putchar((i / 10) + '0');
-					putchar((x % 10) + '0');
+					putchar(i + '0');
+					putchar(x + '0');
 					putchar(' ');
-					putchar((z / 10) + '0');
-					putchar((y % 10) + '0');
+					putchar(z + '0');
+					putchar(y + '0');
 					putchar(',');
 					putchar(' ');
 				}
