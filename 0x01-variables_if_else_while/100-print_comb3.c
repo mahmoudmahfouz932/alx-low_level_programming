@@ -12,12 +12,12 @@ int main(void)
 	{
 		for (x = i + 1; x < 10; x++)
 		{
+			putchar((i % 10) + '0');
+			putchar((x % 10) + '0');
 			if (i == 8 && x == 9)
 			{
 				continue;
 			}
-			putchar((i % 10) + '0');
-			putchar((x % 10) + '0');
 			putchar(',');
 			putchar(' ');
 		}
