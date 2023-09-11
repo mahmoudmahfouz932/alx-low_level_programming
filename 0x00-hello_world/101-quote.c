@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
  *main -Entry point
  *print text without use printf or puts
