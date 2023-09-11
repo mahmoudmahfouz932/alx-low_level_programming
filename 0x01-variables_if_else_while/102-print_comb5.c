@@ -12,13 +12,13 @@ int main(void)
 	{
 		for (x = 0; x < 10; x++)
 		{
-			putchar((i % 10) + '0');
-			putchar((x % 10) + '0');
-			putchar(' ');
 			for (z = 0; z < 9; z++)
 			{
 				for (y = z + 1; y < 10; y++)
 				{
+					putchar((i % 10) + '0');
+					putchar((x % 10) + '0');
+					putchar(' ');
 					putchar((z % 10) + '0');
 					putchar((y % 10) + '0');
 					putchar(',');
