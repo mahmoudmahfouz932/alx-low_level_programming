@@ -14,10 +14,10 @@ int main(void)
 		{
 			for (z = x + 1; z < 11; z++)
 			{
-				putchar((z % 10) + '0');
 				putchar((i % 10) + '0');
 				putchar((x % 10) + '0');
-				if (i == 8 && x == 9)
+				putchar((z % 10) + '0');
+				if (i == 7 && x == 8)
 				{
 				continue;
 				}
