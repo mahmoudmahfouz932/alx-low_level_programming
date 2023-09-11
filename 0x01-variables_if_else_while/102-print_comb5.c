@@ -23,7 +23,7 @@ int main(void)
 					putchar((y % 10) + '0');
 					putchar(',');
 					putchar(' ');
-					if (z == 8 && y == 9)
+					if (z == 8 && y == 9 && i == 9 && x == 9)
 					{
 						continue;
 					}
