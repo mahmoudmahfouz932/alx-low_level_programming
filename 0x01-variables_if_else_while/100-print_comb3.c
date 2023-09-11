@@ -10,15 +10,16 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 	{
-		for (x = 1; x < 9; x++)
+		for (x = i + 1; x < 9; x++)
 		{
-			if (i == 9 && x == 9)
+			if (i == 8 && x == 9)
 			{
 				continue;
 			}
-			putchar(i + '0');
-			putchar(x + '0');
+			putchar((i % 10) + '0');
+			putchar((x % 10) + '0');
 			putchar(',');
+			putchar(' ');
 		}
 		
 	}
