@@ -14,12 +14,12 @@ int main(void)
 		{
 			for (z = 0; z < 10; z++)
 			{
+				if (i == 9 && x == 9)
+				{
+					continue;
+				}
 				for (y = 0; y < 10; y++)
 				{
-					if (z == 9 && y == 9)
-					{
-						continue;
-					}
 					if (i == 0 && x == 0)
 					{
 						continue;
