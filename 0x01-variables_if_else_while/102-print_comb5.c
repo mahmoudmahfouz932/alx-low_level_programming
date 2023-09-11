@@ -14,12 +14,12 @@ int main(void)
 		{
 			for (z = 0; z < 11; z++)
 			{
-				for (y = z + 1; y < 12; y++)
+				for (y = z + 1; y < 10; y++)
 				{
-					putchar((i % 10) + '0');
+					putchar((i / 10) + '0');
 					putchar((x % 10) + '0');
 					putchar(' ');
-					putchar((z % 10) + '0');
+					putchar((z / 10) + '0');
 					putchar((y % 10) + '0');
 					putchar(',');
 					putchar(' ');
