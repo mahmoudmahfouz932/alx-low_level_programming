@@ -22,6 +22,7 @@ int main(void)
 				{
 					if (y == 0 && z == 0)
 					{
+						y = z + 1;
 						continue;
 					}
 					putchar((i % 10) + '0');
