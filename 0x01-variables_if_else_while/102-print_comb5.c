@@ -8,11 +8,11 @@ int main(void)
 {
 	int i, x, z, y;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (x = 0; x < 9; x++)
+		for (x = 0; x <= 9; x++)
 		{
-			for (z = 0; z < 9; z++)
+			for (z = 0; z <= 9; z++)
 			{
 				for (y = z + 1; y < 10; y++)
 				{
