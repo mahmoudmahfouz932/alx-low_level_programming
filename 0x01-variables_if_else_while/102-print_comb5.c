@@ -20,6 +20,10 @@ int main(void)
 					{
 						continue;
 					}
+					if (i == 0 && x == 0)
+					{
+						continue;
+					}
 					putchar((i % 10) + '0');
 					putchar((x % 10) + '0');
 					putchar(' ');
@@ -27,7 +31,7 @@ int main(void)
 					putchar((y % 10) + '0');
 					putchar(',');
 					putchar(' ');
-					if (z == 9 && y == 9 && i == 9 && x == 9)
+					if (z == 9 && y == 9)
 					{
 						continue;
 					}
