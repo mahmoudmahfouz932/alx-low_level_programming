@@ -21,9 +21,9 @@ int main(void)
 				{
 					putchar((z % 10) + '0');
 					putchar((y % 10) + '0');
+					putchar(',');
+					putchar(' ');
 				}
-				putchar(',');
-				putchar(' ');
 			}
 		}
 	}
