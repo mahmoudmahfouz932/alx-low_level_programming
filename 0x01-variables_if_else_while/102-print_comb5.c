@@ -16,17 +16,17 @@ int main(void)
 			{
 				for (y = z + 1; y < 10; y++)
 				{
-					if(z == 9 && y == 9)
-					{
-						continue;
-					}
 					putchar((i % 10) + '0');
-					putchar((x % 110) + '0');
+					putchar((x % 10) + '0');
 					putchar(' ');
 					putchar((z % 10) + '0');
 					putchar((y % 10) + '0');
 					putchar(',');
 					putchar(' ');
+					if (z == 8 && y == 9)
+					{
+						continue;
+					}
 				}
 			}
 		}
