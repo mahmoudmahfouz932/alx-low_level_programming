@@ -20,7 +20,7 @@ int main(void)
 					putchar(x + '0');
 					putchar(' ');
 					putchar(z + '0');
-					putchar(y + '0');
+					putchar((y % 10) + '0');
 					putchar(',');
 					putchar(' ');
 				}
