@@ -12,15 +12,15 @@ int main(void)
 	{
 		for (x = 0; x < 10; x++)
 		{
+			if (i == 9 && x == 9)
+			{
+				continue;
+			}
 			for (z = 0; z < 10; z++)
 			{
-				if (i == 9 && x == 9)
-				{
-					continue;
-				}
 				for (y = 0; y < 10; y++)
 				{
-					if (i == 0 && x == 0)
+					if (y == 0 && z == 0)
 					{
 						continue;
 					}
