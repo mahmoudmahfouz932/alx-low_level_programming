@@ -1,8 +1,6 @@
 #include <unistd.h>
 /**
- * _putchar function to print 
- *
- * Return: Always success 1
+ * my header files
  */
 int _putchar(char t)
 {
