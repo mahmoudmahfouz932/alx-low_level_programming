@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*print alphabet using for loop
-*
-*Return: void
+*print_alphabet -Entry
+*print_alphabet using for loop from a to z
+**Return: void
 */
 void print_alphabet(void)
 {
