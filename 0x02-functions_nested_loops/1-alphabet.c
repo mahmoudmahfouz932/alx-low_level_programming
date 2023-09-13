@@ -4,13 +4,10 @@
 *
 *Return: Always 0(success)
 */
-int mani(void)
-{
-	int i;
-	char c;
-
-	print_alphabet()
+void print_alphabet(void)
 	{
+		char c;
+
 		for (c = 'a'; c < 'z'; c++)
 		{
 			_putchar(c);
