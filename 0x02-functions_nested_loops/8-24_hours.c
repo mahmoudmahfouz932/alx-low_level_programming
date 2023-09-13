@@ -6,13 +6,14 @@
 **Return: void
 */
 void jack_bauer(void)
-{	
+{
 	int i, x, y, z;
 
 	for (i = 0; i <= 2; i++)
 	{
 		for (x = 0; x <= 9)
-			if ((i <= 1 && x <= 9 ) || (i == 2 && x <= 3))
+		{
+			if ((i <= 1 && x <= 9) || (i == 2 && x <= 3))
 			{
 				for (y = 0; y <= 5; x++)
 				{
@@ -27,5 +28,6 @@ void jack_bauer(void)
 					}
 				}
 			}
+		}
 	}
 }
