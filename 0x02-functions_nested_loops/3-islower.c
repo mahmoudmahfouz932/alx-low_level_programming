@@ -3,6 +3,7 @@
 /**
 *_islower -Entry
 *_islower to check if lowercase or not
+*@c: The character to be checked
 *Return: Always success 0
 */
 int _islower(int c)
