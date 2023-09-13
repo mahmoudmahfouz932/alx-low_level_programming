@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*main -Entry point
+*print alphabet using for loop
 *
-*Return: Always 0(success)
+*Return: void
 */
 void print_alphabet(void)
 {
