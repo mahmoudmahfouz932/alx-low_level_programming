@@ -2,7 +2,7 @@
 
 /**
 *_isupper -Entry
-*_upper to check if uppercase or not
+*_isupper to check if uppercase or not
 *@c: The character to be checked
 *Return: Always success 0
 */
