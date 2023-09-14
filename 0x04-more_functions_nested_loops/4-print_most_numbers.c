@@ -3,8 +3,7 @@
 /**
 *print_most_numbers -Entry
 *print_most_numbers using while loop from 0 to 9
-*@c: The character to be checked
-**Return: void
+*Return: void
 */
 void print_most_numbers(void)
 {
@@ -12,7 +11,7 @@ void print_most_numbers(void)
 
 	while (c >= '0' && c <= '9')
 	{
-		if(c == '2' || c == '4')
+		if (c == '2' || c == '4')
 		{
 			continue;
 		}
