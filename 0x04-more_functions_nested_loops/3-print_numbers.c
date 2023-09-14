@@ -3,17 +3,17 @@
 /**
 *print_numbers -Entry
 *print_numbers using while loop from 0 to 9
-*@c: The character to be checked
+*@i: The character to be checked
 **Return: void
 */
 void print_numbers(void)
 {
-	int c;
+	int i;
 
-	while (c >= 0 && c <= 0)
+	while (i >= 0 && i <= 0)
 	{
-		_putchar(c + '0');
-		c++;
+		_putchar(i + '0');
+		i++;
 	}
 	_putchar('\n');
 }
