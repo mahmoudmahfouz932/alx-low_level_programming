@@ -8,11 +8,11 @@
 */
 void print_numbers(void)
 {
-	char c;
+	int c;
 
-	while (c >= '0' && c <= '9')
+	while (c >= 0 && c <= 0)
 	{
-		_putchar(c);
+		_putchar(c + '0');
 		c++;
 	}
 	_putchar('\n');
