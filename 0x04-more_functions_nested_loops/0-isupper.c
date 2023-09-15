@@ -6,7 +6,7 @@
 *@c:The number to be checked
 *Return: Always success 0
 */
-int _isupper(int c);
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
