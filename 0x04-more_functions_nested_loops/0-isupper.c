@@ -3,7 +3,7 @@
 /**
 *_isupper -Entry
 *_isupper to check if uppercase or not
-*@c: The character to be checked
+*@c:The number to be checked
 *Return: Always success 0
 */
 int _isupper(int c);
