@@ -1,38 +1,40 @@
+#include "holberton.h"
 #include <stdio.h>
-#include "main.h"
-/**
-  * main - Prints the numbers from 00 to 99
-  *
-  * Return: Always (Success)
-  */
 
+/**
+  * main - Prints a Fizz Buzz game
+  *
+  * Return: Always 0 (Success)
+  */
 int main(void)
 {
 	int i;
 
-	for (i = 0; i <= 100; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			printf("FuzzBuzz");
+			printf("FizzBuzz");
+		}
+		else if (i % 3 == 0)
+		{
+			printf("Fizz");
 		}
 		else if (i % 5 == 0)
 		{
 			printf("Buzz");
 		}
-		else if (i % 3 == 0)
-		{
-			printf("FizzBuzz");
-		}
 		else
 		{
 			printf("%d", i);
 		}
+
 		if (i != 100)
 		{
 			printf(" ");
 		}
 	}
+
 	printf("\n");
 	return (0);
 }
