@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
   * main - Prints the numbers from 00 to 99
   *
@@ -11,17 +12,17 @@ int main(void)
 
 	for (i = 0; i <= 100 i++)
 	{
-		if ((i % 3) == 0)
+		if (i % 15 == 0)
 		{
-			printf(" Fuzz");
+			printf("FuzzBuzz");
 		}
-		else if ((i % 5) == 0)
+		else if (i % 5 == 0)
 		{
-			printf(" Buzz");
+			printf("Buzz");
 		}
-		else if ((i % 15) == 0)
+		else if (i % 3 == 0)
 		{
-			printif(" FizzBuzz");
+			printif("FizzBuzz");
 		}
 		else
 		{
