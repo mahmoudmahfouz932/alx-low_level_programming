@@ -1,27 +1,28 @@
 #include "main.h"
 
 /**
-*print_squareprint_square -Entry
+*print_square -Entry
 *print_square using for loop to print square of #
-@size: The size of the squares
+*@size: The size of the squares
 **Return: void
 */
 void print_square(int size)
 {
+	int h, w;
+
 	if (size <= 0)
 	{
 		_putchar('\n');
 	}
-	else 
+	else
 	{
-		for (size = size; size > 0; size++)
+		for (h = 0; size > h; h++)
 		{
-			_putchar(35);
-			for (size = size; size > 0; size++)
+			for (w = 0; w < size; w++)
 			{
 				_putchar(35);
 			}
+			_putchar('\n');
 		}
 	}
-	_putchar('\n');
-}	
+}
