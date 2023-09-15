@@ -15,15 +15,22 @@ int main(void)
 		{
 			printf(" Fuzz");
 		}
-		if ((i % 5) == 0)
+		else if ((i % 5) == 0)
 		{
 			printf(" Buzz");
 		}
-		if ((i % 15) == 0)
+		else if ((i % 15) == 0)
 		{
 			printif(" FizzBuzz");
 		}
-		printf("%d ", i);
+		else
+		{
+			printf("%d", i);
+		}
+		if (i != 100)
+		{
+			printf(" ");
+		}
 	}
 	printf("\n");
 	return (0);
