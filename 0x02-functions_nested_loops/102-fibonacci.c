@@ -13,14 +13,18 @@ int main(void)
 	for (i = 0; i < 50; ++i)
 	{
 		if (i == 0)
+		{
 			printf("%ld", x);
+		}
 		else if (i == 1)
+		{
 			printf(", %ld", z);
+		}
 		else
 		{
 			z = z + x;
 			x = z - x;
-			printf(", %ld", k);
+			printf(", %ld", z);
 		}
 	}
 
