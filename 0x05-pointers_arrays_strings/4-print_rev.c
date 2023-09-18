@@ -7,8 +7,7 @@
 **Return: Always success 0
 */
 void print_rev(char *s)
-{
-	char *ptr = s;
+{ 
 	int i = 0;
 
 	while (*s != '\0')
@@ -19,7 +18,7 @@ void print_rev(char *s)
 	}
 	while (i >= 0)
 	{
-		_putchar(ptr[i]);
+		_putchar(s[i]);
 		i--;
 	}
 	_putchar('\n');
