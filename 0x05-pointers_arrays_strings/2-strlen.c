@@ -10,7 +10,7 @@ int _strlen(char *s)
 {
 	int i = 0;
 
-	while  (i <= *s)
+	while  (s 1= '\0')
 	{
 		i++;
 	}
