@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*reset_to_98 -Entry
-*reset_to_98 to reset the value useing pointer
+*swap_int -Entry
+*swap_int to swap the values of a and b useing pointer
 *@a: The pointer used in function
 *@b: The pointer used in function
 **Return: void
