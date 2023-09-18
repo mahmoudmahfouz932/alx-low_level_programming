@@ -6,10 +6,9 @@
 *@*n: The pointer used in function
 **Return: void
 */
-void reset_to_98(int &n)
+void reset_to_98(int *n)
 {
 	int *ptr;
 	ptr = &n;
 	*ptr = 98;
-
 }
