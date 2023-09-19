@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 	int c;
 
 	c = n - 1;
-	while (i < c)
+	while (i <= c)
 	{
 		if (i == c)
 		{
