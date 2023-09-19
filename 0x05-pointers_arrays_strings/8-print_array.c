@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-*print_print - Entry
+*print_array - Entry
 *print_array prints string in revese
 *@a , b: The pointers used in function
 **Return: void
@@ -13,7 +13,7 @@ void print_array(int *a, int n)
 
 	while (i >= n)
 	{
-		printf("%d, ", a[i])
+		printf("%d, ", a[i]);
 		i++;
 	}
 }
