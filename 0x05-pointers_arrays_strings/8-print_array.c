@@ -13,10 +13,9 @@ void print_array(int *a, int n)
 	int i = 0;
 	int c = 0;
 
-	while (*a != '\0')
+	while (a[c] != '\0')
 	{
 		c++;
-		a++;
 	}
 	c = c - 1;
 	while (i < n)
