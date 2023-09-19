@@ -3,8 +3,8 @@
 /**
 * *_strcpy - Entry
 * *_strcpy to revese array
-* @*dest: The new array copy
-* @*src: The array want to copy
+* @dest: The new array copy
+* @src: The array want to copy
 * *Return: char
 */
 char *_strcpy(char *dest, char *src)
