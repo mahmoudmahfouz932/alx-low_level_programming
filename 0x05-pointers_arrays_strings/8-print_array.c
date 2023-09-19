@@ -11,7 +11,7 @@
 void print_array(int *a, int n)
 {
 	int i = 0;
-	int c ;
+	int c;
 
 	c = n - 1;
 	while (i < n)
@@ -19,6 +19,7 @@ void print_array(int *a, int n)
 		if (i == c)
 		{
 			printf("%d", a[c]);
+			continue;
 		}
 		else
 		{
