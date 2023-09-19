@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-**_strcpy - Entry
-**_strcpy to revese array
-*@*dest: The new array copy
-*@*src: The array want to copy
-**Return: void
+* *_strcpy - Entry
+* *_strcpy to revese array
+* @*dest: The new array copy
+* @*src: The array want to copy
+* *Return: char
 */
 char *_strcpy(char *dest, char *src)
 {
