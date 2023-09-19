@@ -10,6 +10,7 @@ void puts2(char *str)
 {
 	int i = 0;
 	int c = 0;
+	
 	while (str[c] != '\0')
 	{
 		c++;
