@@ -7,7 +7,7 @@
 *@n: The number of element to print
 **Return: void
 */
-void print_array(int *a, int n)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 	int c = 0;
