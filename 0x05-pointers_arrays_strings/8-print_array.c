@@ -4,16 +4,18 @@
 /**
 *print_array - Entry
 *print_array prints string in revese
-*@a , b: The pointers used in function
+*@a: The pointers used in function
+*@b: The pointers used in function
 **Return: void
 */
 void print_array(int *a, int n)
 {
 	int i = 0;
 
-	while (i >= n)
+	while (i <= n)
 	{
 		printf("%d, ", a[i]);
 		i++;
 	}
+	printf("\n");
 }
