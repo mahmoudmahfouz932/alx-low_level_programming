@@ -10,11 +10,12 @@ char *string_toupper(char *c)
 {
 	int i = 0;
 
-	for (; c[i]; i++)
+	for (i = 0; c[i]; i++)
 	{
 		if (c[i] >= 92 && c[i] <= 122)
 		{
 			c[i] = c[i] - 32;
 		}
 	}
+	return (c);
 }
