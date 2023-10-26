@@ -4,8 +4,9 @@
 /**
  * check_prime - Check if number is prime
  * @n: the number to be checked
- * @i: the iteration times
+ * @z: the iteration times
  * @is_prime_number: function to check
+ * @n:the number to check
  * Return: 1 for prime or 0 composite
  */
 int check_prime(int n, int z)
