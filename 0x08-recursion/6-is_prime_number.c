@@ -5,21 +5,21 @@
  * check_prime - Check if number is prime
  * @n: the number to be checked
  * @i: the iteration times
- * @is_prime_prime_number: function to check
+ * @is_prime_number: function to check
  * Return: 1 for prime or 0 composite
  */
-int check_prime(int n, int i)
+int check_prime(int n, int z)
 {
 	if (n <= 1)
 		return (0);
 
-	if (n % i == 0 && i > 1)
+	if (n % z == 0 && z > 1)
 		return (0);
 
-	if ((n / i) < i)
+	if ((n / z) < z)
 		return (1);
 
-	return (check_prime(n, i + 1));
+	return (check_prime(n, z + 1));
 }
 
 int is_prime_number(int n)
