@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
 *factorial - Entry
-*factorial to print  print factorial
-*@s:pointer array want to print
+*factorial - to print  print factorial
+*@n:number to caluclate factorial 
 **Return: int
 */
+
 int factorial(int n)
 {
 	if (n < 0)
