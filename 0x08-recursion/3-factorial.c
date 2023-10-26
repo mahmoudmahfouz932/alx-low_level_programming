@@ -3,7 +3,7 @@
 /**
 *factorial - Entry
 *factorial - to print  print factorial
-*@n:number to caluclate factorial 
+*@n:number to caluclate factorial
 **Return: int
 */
 
