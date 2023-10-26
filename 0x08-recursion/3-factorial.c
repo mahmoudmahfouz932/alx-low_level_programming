@@ -4,7 +4,7 @@
 *factorial - Entry
 *factorial to print  print factorial
 *@s:pointer array want to print
-**Return: void
+**Return: int
 */
 int factorial(int n)
 {
