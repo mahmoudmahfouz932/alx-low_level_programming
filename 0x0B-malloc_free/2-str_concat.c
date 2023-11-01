@@ -30,7 +30,6 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	for (c = 0; c < i; c++)
 		s[c] = s1[c];
-	c++;
 	while (c < (i + z))
 	{
 		s[c] = s2[x];
