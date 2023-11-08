@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
-  * print_dog - Prints all the data of a dog
-  * @d: A dog
-  * Return: Nothing
-  */
+ * print_dog - Prints all the data of a dog
+* @d: A dog
+* Return: Nothing
+*/
 void print_dog(struct dog *d)
 {
 	if (d != NULL)
